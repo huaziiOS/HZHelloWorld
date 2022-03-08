@@ -1,0 +1,6 @@
+framework module HZHelloWorld {
+  umbrella header "HZHelloWorld-umbrella.h"
+
+  export *
+  module * { export * }
+}

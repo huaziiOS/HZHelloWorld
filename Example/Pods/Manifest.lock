@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - HZHelloWorld (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - HZHelloWorld (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  HZHelloWorld:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  HZHelloWorld: 540832f931b4318f6a4f56230fc0ade8e116ae66
+
+PODFILE CHECKSUM: 4930b5d82b2676de8331f7971cd718f43956546f
+
+COCOAPODS: 1.10.2

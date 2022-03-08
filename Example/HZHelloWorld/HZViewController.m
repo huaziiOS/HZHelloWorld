@@ -7,6 +7,7 @@
 //
 
 #import "HZViewController.h"
+#import "HZTestLog.h"
 
 @interface HZViewController ()
 
@@ -17,7 +18,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    HZTestLog *testLog = [[HZTestLog alloc] init];
+    [testLog testLog:@"test string"];
 }
 
 - (void)didReceiveMemoryWarning
